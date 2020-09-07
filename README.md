@@ -1,0 +1,1 @@
+[CV on netlify](https://vitaliyton-cv.netlify.app)
