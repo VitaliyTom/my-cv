@@ -10,8 +10,8 @@ export const contentPortfolio = {
     <ul class="developing-ul">
         <li>
             <a href="https://rslang-group51-blacktruth.netlify.app" target="_blank" rel="noopener noreferrer">"RS
-                Lang" learning English</a>
-            <span> - group dev.</span>
+                Lang" - learning English</a>
+            <span> (group dev.)</span>
         </li>
         <li>
             <a href="https://vitaliytom-rs2020q1-fancy-weather.netlify.app" target="_blank"
@@ -31,7 +31,7 @@ export const contentPortfolio = {
         </li>
         <li>
             <a href="https://vitaliytom.github.io/codejam-virtual-keyboard" target="_blank"
-                rel="noopener noreferrer">"virtual-keyboard" - virtual keyboard</a>
+                rel="noopener noreferrer">"virtual-keyboard" - keyboard</a>
         </li>
 
         <li>

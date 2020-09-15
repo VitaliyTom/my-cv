@@ -1,1 +1,1 @@
-[CV on netlify](https://vitaliyton-cv.netlify.app)
+[CV on netlify](https://vitaliytom-my-cv.netlify.app)

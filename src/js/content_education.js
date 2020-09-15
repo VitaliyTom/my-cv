@@ -14,22 +14,42 @@ export const contentEducation = {
     <div class="wrapper_skills">
         <div class="wrapper_Primary_Skills">
             <span class="primary_Skills">Primary skills:</span>
-            <ul class="skills">
-                <li class="skills_Html">HTML</li>
-                <li class="skills_Css">CSS</li>
-                <li class="skills_Js">JavaScript</li>
-                <li class="skills_Git">Git/GitHub</li>
-                <li class="skills_Linux">linux</li>
-            </ul>
+            <div class="skills">
+                <div class="skills_Html">
+                <div class="skills_icon"></div>
+                HTML
+                </div>
+                <div class="skills_Css">
+                <div class="skills_icon"></div>
+                CSS
+                </div>
+                <div class="skills_Js">
+                <div class="skills_icon"></div>
+                JavaScript
+                </div>
+                <div class="skills_webpack">
+                <div class="skills_icon"></div>
+                Webpack
+                </div>                
+                <div class="skills_eslint">
+                <div class="skills_icon"></div>
+                Eslint
+                </div>            
+                <div class="skills_Git">
+                <div class="skills_icon"></div>
+                Git/GitHub
+                </div> 
+                <div class="skills_react">
+                <div class="skills_icon"></div>
+                React
+                </div>
+                <div class="skills_Linux">
+                <div class="skills_icon"></div>
+                linux
+                </div>
+            </div>
         </div>
-        <div class="wrapper_Base_Skills">
-            <span class="base_Skills">Base skills:</span>
-            <ul class="skills">
-                <li class="skills_react">React</li>
-                <li class="skills_webpack">Webpack</li>
-                <li class="skills_eslint">Eslint</li>
-            </ul>
-        </div>
+      
     </div>
 
     <div class="wrapper_calendar">
@@ -49,20 +69,38 @@ export const contentEducation = {
         <a href="https://teachmeskills.by/kursy-programmirovaniya/obuchenie-java-minsk"
             class="teach_me_skills" target="blank" rel="noopener noreferrer">
             &lt;TeachMeSkills/&gt;</a>
-        &nbsp; - <a href="https://app.rs.school/certificate/agvivayo" class="rs_school_certificate"
+        &nbsp; - <a href="https://drive.google.com/file/d/19OvyKxX5Iq5DPzGz-So-v8ehDnoCigtH/view" class="rs_school_certificate"
             target="blank" rel="noopener noreferrer">certificate</a>
     </p>
     <div class="wrapper_skills">
         <div class="wrapper_Primary_Skills">
             <span class="primary_Skills">Primary skills:</span>
-            <ul class="skills java_Skill">
-                <li class="skills_Java">Java SE/EE</li>
-                <li class="skills_Spring">Spring</li>
-                <li class="skills_Hibernate">Hibernate</li>
-                <li class="skills_Tomcat">Tomcat</li>
-                <li class="skills_MySQL">MySQL</li>
-                <li class="skills_Maven">Maven</li>
-            </ul>
+            <div class="skills java_Skill">
+                <div class="skills_Java">
+                <div class="skills_icon"></div>
+                Java SE/EE
+                </div>
+                <div class="skills_Spring">
+                <div class="skills_icon"></div>
+                Spring
+                </div>
+                <div class="skills_Hibernate">
+                <div class="skills_icon"></div>
+                Hibernate
+                </div>
+                <div class="skills_Tomcat">
+                <div class="skills_icon"></div>
+                Tomcat
+                </div>
+                <div class="skills_MySQL">
+                <div class="skills_icon"></div>
+                MySQL
+                </div>
+                <div class="skills_Maven">
+                <div class="skills_icon"></div>
+                Maven
+                </div>
+            </div>
         </div>
     </div>
     <div class="wrapper_calendar">
@@ -73,3 +111,4 @@ export const contentEducation = {
     BackEnd: `<p class="position">Back-end Developer</p>`,
   },
 };
+
