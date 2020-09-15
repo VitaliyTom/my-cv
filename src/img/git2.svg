@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="git2.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   width="64.0px"
+   height="64.0px"
+   viewBox="0 0 64.0 64.0"
+   version="1.1"
+   id="SVGRoot">
+  <defs
+     id="defs2037">
+	
+</defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="39.194577"
+     inkscape:cx="49.879468"
+     inkscape:zoom="8"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2607" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2040">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       id="path2620"
+       d="M 20.881,4.695"
+       class="st1" />
+    <path
+       id="path2622"
+       d="M 19.658,9.857"
+       class="st0" />
+    <path
+       class="st0"
+       d="M 62.899395,29.130688 34.725937,1.1302715 c -1.584516,-1.50746359 -4.070635,-1.50746359 -5.655148,0 L 23.735525,6.47722 c -0.523706,0.5203805 -0.52668,1.3658116 -0.0075,1.8906664 0.0029,0.00291 0.0044,0.00451 0.0075,0.00742 l 4.801143,4.9726896 c 0.377903,0.378731 0.944754,0.493541 1.440194,0.29374 2.749464,-1.063127 5.836655,0.308651 6.898948,3.062639 0.244,0.633703 0.365998,1.309156 0.357075,1.989079 -0.0075,0.678434 -0.142827,1.350902 -0.400219,1.978638 -0.19937,0.496526 -0.08332,1.06462 0.293096,1.443349 l 4.695508,4.598436 c 0.377902,0.378729 0.944756,0.493541 1.440197,0.293737 2.737556,-1.092947 5.839628,0.246026 6.93019,2.989579 1.09056,2.743555 -0.245485,5.85242 -2.983048,6.945367 -2.737558,1.092949 -5.83963,-0.246025 -6.930188,-2.989579 -0.239539,-0.602388 -0.367488,-1.243545 -0.377905,-1.892157 0.009,-0.650104 0.135395,-1.29275 0.373439,-1.898122 0.187464,-0.489066 0.0729,-1.043745 -0.293096,-1.416509 l -4.481268,-4.517949 c -0.526681,-0.517396 -1.370266,-0.508451 -1.886535,0.01939 -0.239537,0.244534 -0.376414,0.574059 -0.380877,0.917003 v 14.115884 c -0.0015,0.533799 0.312439,1.016904 0.800438,1.230125 2.700364,1.180921 3.933753,4.333026 2.755412,7.039302 -1.178341,2.706278 -4.323558,3.942369 -7.023921,2.761448 -2.700366,-1.180921 -3.933756,-4.333026 -2.755416,-7.039303 0.53859,-1.23609 1.522028,-2.221682 2.755416,-2.761447 0.487999,-0.213221 0.801926,-0.696326 0.80044,-1.230125 V 24.790388 c 0.0014,-0.533802 -0.312441,-1.016905 -0.80044,-1.230128 -2.621512,-1.1511 -3.86978,-4.17199 -2.828315,-6.843974 0.168121,-0.50398 0.02086,-1.061635 -0.373441,-1.416508 l -4.827924,-4.945853 c -0.519244,-0.5248538 -1.362827,-0.5278351 -1.886534,-0.0074 -0.0029,0.0029 -0.0044,0.0045 -0.0075,0.0074 L 1.168513,29.068237 c -1.5607049,1.565616 -1.5607049,4.101912 0,5.667528 l 28.0094,28.097564 c 1.562194,1.564124 4.092949,1.564124 5.655142,0 L 62.842454,34.735826 c 1.560709,-1.565616 1.560709,-4.101912 0,-5.667529 z"
+       id="path2624"
+       style="stroke-width:1.48942"
+       sodipodi:nodetypes="ccccccccccccccsscccccccccssccccccccccccccccc" />
+  </g>
+  <style
+     type="text/css"
+     id="style2614">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#494947;}
+</style>
+</svg>
