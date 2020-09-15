@@ -176,7 +176,8 @@ body {
 .contacts-item.phone,
 .contacts-item.email,
 .contacts-item.skype,
-.contacts-item.linkedIn {
+.contacts-item.linkedIn,
+.contacts-item.gitHub {
   display: flex;
   justify-content: flex-start;
 }
@@ -206,6 +207,10 @@ body {
 
 .contacts-item.linkedIn .icon {
   background-image: url("./src/img/linkedin.svg");
+}
+
+.contacts-item.gitHub .icon {
+  background-image: url("./src/img/git2.svg");
 }
 
 .wrapper_flags {
@@ -786,7 +791,8 @@ ol {
   .contacts-item.phone,
   .contacts-item.email,
   .contacts-item.skype,
-  .contacts-item.linkedIn {
+  .contacts-item.linkedIn,
+  .contacts-item.gitHub {
     display: flex;
     justify-content: center;
   }
@@ -969,7 +975,8 @@ ol {
   .contacts-item.phone,
   .contacts-item.email,
   .contacts-item.skype,
-  .contacts-item.linkedIn {
+  .contacts-item.linkedIn,
+  .contacts-item.gitHub {
     display: flex;
     justify-content: flex-start;
   }
