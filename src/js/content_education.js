@@ -1,6 +1,6 @@
 export const contentEducation = {
-  js: {
-    jsContent: `<div class="wrapper_calendar">
+	js: {
+		jsContent: `<div class="wrapper_calendar">
         <div class="calendar"></div>
         <p class="date">02.02.2020 - 31.07.2020</p>
     </div>
@@ -41,7 +41,7 @@ export const contentEducation = {
                 </div> 
                 <div class="skills_react">
                 <div class="skills_icon"></div>
-                React
+                React(basic)
                 </div>
                 <div class="skills_Linux">
                 <div class="skills_icon"></div>
@@ -57,11 +57,11 @@ export const contentEducation = {
         <p class="date">2005 - 2008</p>
     </div>
     <p class="content_text">3 years of study at the institute, University of civil protection</p>`,
-    frontEnd: `<p class="position">Front-end Developer</p>`,
-  },
+		frontEnd: `<p class="position">Front-end Developer</p>`
+	},
 
-  java: {
-    javaContent: `<div class="wrapper_calendar">
+	java: {
+		javaContent: `<div class="wrapper_calendar">
         <div class="calendar"></div>
         <p class="date">03.2018 - 09.2018</p>
     </div>
@@ -108,7 +108,6 @@ export const contentEducation = {
         <p class="date">2005 - 2008</p>
     </div>
     <p class="content_text">3 years of study at the institute, University of civil protection</p>`,
-    BackEnd: `<p class="position">Back-end Developer</p>`,
-  },
+		BackEnd: `<p class="position">Back-end Developer</p>`
+	}
 };
-

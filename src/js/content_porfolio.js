@@ -1,6 +1,6 @@
 export const contentPortfolio = {
-  js: {
-    jsContent: `<div class="wrapper_calendar">
+	js: {
+		jsContent: `<div class="wrapper_calendar">
     <div class="calendar"></div>
     <p class="date">02.2020 - 07.2020</p>
 </div>
@@ -10,20 +10,20 @@ export const contentPortfolio = {
     <ul class="developing-ul">
         <li>
             <a href="https://rslang-group51-blacktruth.netlify.app" target="_blank" rel="noopener noreferrer">"RS
-                Lang" - learning English</a>
+                Lang" - learning English (RWD)</a>
             <span> (group dev.)</span>
         </li>
         <li>
             <a href="https://vitaliytom-rs2020q1-fancy-weather.netlify.app" target="_blank"
-                rel="noopener noreferrer">"fancy-weather" - weather forecast</a>
+                rel="noopener noreferrer">"fancy-weather" - weather forecast (RWD)</a>
         </li>
         <li>
             <a href="https://vitaliytom-rs2020q1-moviesearch.netlify.app" target="_blank"
-                rel="noopener noreferrer">"moviesearch" - movie search</a>
+                rel="noopener noreferrer">"moviesearch" - movie search (RWD)</a>
         </li>
         <li>
             <a href="https://vitaliytom-rs2020q1-english-for-kids.netlify.app" target="_blank"
-                rel="noopener noreferrer">"english-for-kids" - learning English</a>
+                rel="noopener noreferrer">"english-for-kids" - learning English (RWD)</a>
         </li>
         <li>
             <a href="https://vitaliytom-rs2020q1-presentation.netlify.app" target="_blank"
@@ -35,16 +35,16 @@ export const contentPortfolio = {
         </li>
 
         <li>
-            <a href="https://vitaliytom.github.io/singolo" target="_blank" rel="noopener noreferrer">"singolo" - landing page</a>
+            <a href="https://vitaliytom.github.io/singolo" target="_blank" rel="noopener noreferrer">"singolo" - landing page (RWD)</a>
         </li>
 
     </ul>
 </li>`,
-    frontEnd: `<p class="position">Front-end Developer</p>`,
-  },
+		frontEnd: `<p class="position">Front-end Developer</p>`
+	},
 
-  java: {
-    javaContent: `<div class="wrapper_calendar">
+	java: {
+		javaContent: `<div class="wrapper_calendar">
     <div class="calendar"></div>
     <p class="date">12.2018 - 06.2019</p>
 </div>
@@ -57,11 +57,10 @@ export const contentPortfolio = {
     <ul class="developing-ul">
         <li>
             <a href="https://github.com/VitaliyTom/animals" target="_blank" rel="noopener noreferrer">"Animals" on
-                GitHub</a>
+                GitHub (RWD)</a>
         </li>
         <li>
-            <a href="http://93.125.1.133:88/animal" target="_blank" rel="noopener noreferrer">"Animals" on the home
-                linux-server</a>
+            <a class="animalsDeployLink" href="http://93.125.1.133:3088/animals" target="_blank" rel="noopener noreferrer">"Animals" deployed on the home linux-server</a>
         </li>
     </ul>
 </li>
@@ -90,6 +89,6 @@ export const contentPortfolio = {
         </li>
     </ul>
 </li>`,
-    BackEnd: `<p class="position">Back-end Developer</p>`,
-  },
+		BackEnd: `<p class="position">Back-end Developer</p>`
+	}
 };
