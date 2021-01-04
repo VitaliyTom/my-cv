@@ -6,20 +6,48 @@
 
 html {
 	color: black;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'KoHo', sans-serif;
 }
 
 body {
 	position: relative;
-	max-width: 1200px;
-	margin: 0 auto;
+	width: 100%;
+	padding-top: 1px;
+	overflow-x: hidden;
 	font-size: 10px;
+}
+
+#canvas {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.responsive_web_design,
+.responsive_web_design_description {
+	font-size: 0.7rem;
+	text-align: center;
+}
+
+.responsive_web_design_description {
+	margin-top: 10px;
+}
+
+.portfolio,
+.education,
+.nav_main,
+.contact_me,
+.image_link {
+	position: relative;
+	z-index: 30;
 }
 
 .container {
 	display: flex;
+	max-width: 1200px;
+	margin: 20px auto;
 	width: 100%;
-	margin: 20px 0;
 	border-radius: 25px;
 	box-shadow: 0 0 10px 1px #333330;
 }
@@ -146,6 +174,30 @@ body {
 .icon.language {
 	background: url("./src/img/global.svg");
 	background-size: cover;
+}
+
+.other_link,
+#rs_school,
+#teach_me_skills {
+	color: #029fcf;
+	border-radius: 5px;
+	padding: 0 2px;
+}
+
+.other_link.xonotic {
+	padding: 0;
+}
+
+.revealjs,
+.xonotic {
+	padding: 0;
+	margin: 0;
+}
+
+.other_link:hover,
+#rs_school:hover,
+#teach_me_skills:hover {
+	color: #ffffff;
 }
 
 .my_portfolio a:link,
@@ -381,6 +433,10 @@ body {
 	cursor: pointer;
 }
 
+a {
+	padding: 0 3px;
+}
+
 a:link {
 	text-decoration: none;
 }
@@ -394,29 +450,28 @@ a:link {
 }
 
 .main a:hover {
-	background-color: #ffc404;
-	box-shadow: 0 0 10px 5px white inset;
-	color: #494947;
+	background-color: #029fcf;
+	color: #ffffff;
 	border-radius: 5px;
 	transition: 0.3s;
 	cursor: pointer;
 }
 
-.animalsDeployLink{
+.animalsDeployLink {
 	padding: 2px;
 	border-radius: 5px;
 	box-shadow: 0 0 5px -1px rgb(47, 184, 47);
 	animation: animals 3s linear infinite;
 }
 
-@keyframes animals{
-	0%{
+@keyframes animals {
+	0% {
 		box-shadow: 0 0 5px -1px rgb(47, 184, 47);
 	}
-	50%{
+	50% {
 		box-shadow: 0 0 8px 3px rgb(47, 184, 47);
 	}
-	100%{
+	100% {
 		box-shadow: 0 0 5px -1px rgb(47, 184, 47);
 	}
 }
@@ -488,7 +543,6 @@ h2 {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	font-weight: bold;
 }
 
 .content p {
@@ -519,11 +573,6 @@ ol {
 	font-size: 1.2rem;
 }
 
-.rs_school,
-.teach_me_skills {
-	font-weight: bold;
-}
-
 .developing-li {
 	margin-left: 20px;
 }
@@ -533,16 +582,14 @@ ol {
 }
 
 .content_text .rs_school_certificate:any-link {
-	font-weight: bold;
 	color: rgb(0, 187, 9);
+	padding: 2px;
 }
 
 .content_text .rs_school_certificate:any-link:hover {
-	font-weight: bold;
 	color: black;
-	background: rgb(55, 255, 65);
+	background: rgb(150, 255, 156);
 	border-radius: 10px;
-	box-shadow: 0 0 10px 5px white inset;
 	padding: 2px;
 }
 
@@ -550,10 +597,6 @@ ol {
 .content {
 	width: 100%;
 	margin-left: 35px;
-}
-
-.course {
-	font-weight: bold;
 }
 
 .wrapper_skills {
@@ -682,6 +725,7 @@ ol {
 	top: 0;
 	right: 0;
 	transition: 0.5s;
+	z-index: 45;
 }
 
 .modal p {
@@ -692,7 +736,7 @@ ol {
 
 @media (max-width: 1250px) {
 	body {
-		margin: 20px;
+		padding: 0 20px;
 	}
 
 	.main {
@@ -900,6 +944,7 @@ ol {
 	.developing-li li {
 		text-indent: 0;
 		text-align: center;
+		margin-top: 10px;
 	}
 
 	.content {
@@ -937,6 +982,21 @@ ol {
 /* -------------------------------------- media 550px -------------------------------------- */
 
 @media (max-width: 550px) {
+	body,
+	.container {
+		margin: 0;
+		padding: 0;
+	}
+
+	.wrapper_image,
+	.main {
+		border-radius: 0;
+	}
+
+	.image_link {
+		z-index: 0;
+	}
+
 	.aside_left,
 	.main {
 		padding: 0 20px 0;
@@ -1001,7 +1061,7 @@ ol {
 		justify-content: center;
 	}
 
-	.animalsDeployLink{
+	.animalsDeployLink {
 		animation: none;
 	}
 
@@ -1026,11 +1086,6 @@ ol {
 /* -------------------------------------- media 390px -------------------------------------- */
 
 @media (max-width: 390px) {
-	body,
-	.container {
-		margin: 0px;
-	}
-
 	.wrapper_image,
 	.main {
 		border-radius: 0;
