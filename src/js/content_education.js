@@ -13,45 +13,51 @@ export const contentEducation = {
             rel="noopener noreferrer">certificate</a>
     </p>
     <div class="wrapper_skills">
-        <div class="wrapper_Primary_Skills">
-            <span class="primary_Skills">Primary skills:</span>
-            <div class="skills">
-                <div class="skills_Html">
-                    <div class="skills_icon"></div>
-                    HTML
-                </div>
-                <div class="skills_Css">
-                    <div class="skills_icon"></div>
-                    CSS
-                </div>
-                <div class="skills_Js">
-                    <div class="skills_icon"></div>
-                    JavaScript
-                </div>
-                <div class="skills_webpack">
-                    <div class="skills_icon"></div>
-                    Webpack
-                </div>
-                <div class="skills_eslint">
-                    <div class="skills_icon"></div>
-                    Eslint
-                </div>
-                <div class="skills_Git">
-                    <div class="skills_icon"></div>
-                    Git/GitHub
-                </div>
-                <div class="skills_react">
-                    <div class="skills_icon"></div>
-                    React(basic)
-                </div>
-                <div class="skills_Linux">
-                    <div class="skills_icon"></div>
-                    linux
-                </div>
+    <div class="wrapper_Primary_Skills">
+        <span class="primary_Skills">Primary skills:</span>
+        <div class="skills">
+            <div class="skills_react">
+                <div class="skills_icon"></div>
+                React
             </div>
-        </div>
+            <div class="skills_Html">
+                <div class="skills_icon"></div>
+                HTML
+            </div>
+            <div class="skills_Css">
+                <div class="skills_icon"></div>
+                CSS
+            </div>
+            <div class="skills_Js">
+                <div class="skills_icon"></div>
+                JavaScript
+            </div>
+            <div class="skills_eslint">
+                <div class="skills_icon"></div>
+                Eslint
+            </div>
+            <div class="skills_Linux">
+                <div class="skills_icon"></div>
+                linux
+            </div>
+            <div class="skills_Git">
+                <div class="skills_icon"></div>
+                Git/GitHub
+            </div>
+            <div class="skills_webpack">
+                <div class="skills_icon"></div>
+                Webpack
+            </div>
 
+        </div>
     </div>
+</div>
+
+    <div class="wrapper_calendar">
+        <div class="calendar"></div>
+        <p class="date">03.2021-05.2021</p>
+    </div>
+    <p class="content_text">Exadel internship</p>
 
     <div class="wrapper_calendar">
         <div class="calendar"></div>
@@ -106,6 +112,14 @@ export const contentEducation = {
             </div>
         </div>
     </div>
+
+    
+    <div class="wrapper_calendar">
+        <div class="calendar"></div>
+        <p class="date">03.2021-05.2021</p>
+    </div>
+    <p class="content_text">Exadel internship</p>
+
     <div class="wrapper_calendar">
         <div class="calendar"></div>
         <p class="date">2005 - 2008</p>

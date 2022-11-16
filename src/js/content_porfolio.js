@@ -10,8 +10,8 @@ export const contentPortfolio = {
 
         <ul class="developing-ul">
             <li>
-                <a href="https://game-space-war.netlify.app" target="_blank" rel="noopener noreferrer">Game "Space
-                    war"</a>
+                <a href="https://game-space-war.netlify.app" target="_blank" rel="noopener noreferrer">Game "Space war"</a>
+                (Canvas + JavaScript)
             </li>
             <li>
                 <a href="https://xonotic-react.netlify.app" target="_blank" rel="noopener noreferrer">"Xonotic" info
@@ -19,12 +19,12 @@ export const contentPortfolio = {
                 <span>
                     (<a href="https://xonotic.org" class="xonotic" target="_blank" rel="noopener noreferrer">
                         <span class="other_link xonotic">"Xonotic"</span>
-                    </a> is an action game)
+                    </a> is an action game) (React)
                 </span>
                 <span class="responsive_web_design">(RWD)</span>
             </li>
             <li>
-                <a href="http://93.125.1.133:3588/animals/" target="_blank" rel="noopener noreferrer">Application
+                <a href="https://github.com/VitaliyTom/animals/" target="_blank" rel="noopener noreferrer">Application
                     "Animals"</a>
                 (JavaScript + Java)
             </li>
@@ -40,17 +40,17 @@ export const contentPortfolio = {
         <ul class="developing-ul">
             <li>
                 <a href="https://vitaliytom-rs2020q1-fancy-weather.netlify.app" target="_blank"
-                    rel="noopener noreferrer">Geolocation weather forecast app </a>
+                    rel="noopener noreferrer">Geolocation weather forecast app</a>
                 <span class="responsive_web_design">(RWD)</span>
             </li>
             <li>
                 <a href="https://vitaliytom-rs2020q1-english-for-kids.netlify.app" target="_blank"
-                    rel="noopener noreferrer">English for kids app </a>
+                    rel="noopener noreferrer">English for kids app</a>
                 <span class="responsive_web_design">(RWD)</span>
             </li>
             <li>
                 <a href="https://vitaliytom-rs2020q1-moviesearch.netlify.app" target="_blank"
-                    rel="noopener noreferrer">Service for searching movies information </a>
+                    rel="noopener noreferrer">Service for searching movies information</a>
                 <span class="responsive_web_design">(RWD)</span>
             </li>
             <li>
@@ -59,18 +59,18 @@ export const contentPortfolio = {
             </li>
             <li>
                 <a href="https://vitaliytom.github.io/singolo" target="_blank" rel="noopener noreferrer">Landing page
-                    example </a>
+                    example</a>
                 <span class="responsive_web_design">(RWD)</span>
             </li>
             <li>
                 <a href="https://rslang-group51-blacktruth.netlify.app" target="_blank"
-                    rel="noopener noreferrer">Application for studying English </a>
+                    rel="noopener noreferrer">Application for studying English</a>
                 <span class="responsive_web_design">(RWD)</span>
                 <span> (group development)</span>
             </li>
             <li>
                 <a href="https://vitaliytom-rs2020q1-presentation.netlify.app" target="_blank"
-                    rel="noopener noreferrer">Linux kernel presentation </a>
+                    rel="noopener noreferrer">Linux kernel presentation</a>
                 <span>
                     (<a href="https://revealjs.com" class="revealjs" target="_blank" rel="noopener noreferrer"><span
                             class="other_link">reveal.js</span></a> was used for creation)
@@ -100,10 +100,6 @@ export const contentPortfolio = {
             <li>
                 <a href="https://github.com/VitaliyTom/animals" target="_blank" rel="noopener noreferrer">"Animals" on
                     GitHub (RWD)</a>
-            </li>
-            <li>
-                <a class="animalsDeployLink" href="http://93.125.1.133:3588/animals" target="_blank"
-                    rel="noopener noreferrer">"Animals" deployed on the home linux-server</a>
             </li>
         </ul>
     </li>
